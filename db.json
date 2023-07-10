@@ -84,5 +84,8 @@
       ],
       "answer": "Christopher Nolan"
     }
+  ],
+  "quizusers" : [
+    {"id" : 1, "name" : "Chandra" , "diffeculty" : "easy", "numberOfQuestion" : 4}
   ]
 }
