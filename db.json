@@ -18,9 +18,71 @@
     }
   ],
   "todo": [
-    { 
+    {
       "id": 1,
-     "title": "learn js",
+      "title": "learn js",
       "status": false }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "Science",
+      "question": "What is the smallest unit of matter?",
+      "options": [
+        "Atom",
+        "Cell",
+        "Molecule",
+        "Electron"
+      ],
+      "answer": "Atom"
+    },
+    {
+      "id": 2,
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Abraham Lincoln"
+      ],
+      "answer": "George Washington"
+    },
+    {
+      "id": 3,
+      "category": "Geography",
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "Japan",
+        "India",
+        "South Korea"
+      ],
+      "answer": "Japan"
+    },
+    {
+      "id": 4,
+      "category": "Sports",
+      "question": "Which sport uses a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Table Tennis",
+        "Squash"
+      ],
+      "answer": "Badminton"
+    },
+    {
+      "id": 5,
+      "category": "Movies",
+      "question": "Who directed the movie 'Inception'?",
+      "options": [
+        "Christopher Nolan",
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Quentin Tarantino"
+      ],
+      "answer": "Christopher Nolan"
+    }
   ]
 }
