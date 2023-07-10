@@ -23,69 +23,382 @@
       "title": "learn js",
       "status": false }
   ],
-  "questions": [
+  "sportquestions": [
     {
       "id": 1,
-      "category": "Science",
-      "question": "What is the smallest unit of matter?",
+      "category": "Sports",
+      "question": "Which country won the FIFA World Cup in 2018?",
       "options": [
-        "Atom",
-        "Cell",
-        "Molecule",
-        "Electron"
+        "Germany",
+        "Brazil",
+        "France",
+        "Spain"
       ],
-      "answer": "Atom"
+      "answer": "France"
     },
     {
       "id": 2,
-      "category": "History",
-      "question": "Who was the first President of the United States?",
+      "category": "Sports",
+      "question": "Who holds the record for the most home runs in Major League Baseball?",
       "options": [
-        "George Washington",
-        "Thomas Jefferson",
-        "John Adams",
-        "Abraham Lincoln"
+        "Babe Ruth",
+        "Barry Bonds",
+        "Hank Aaron",
+        "Alex Rodriguez"
       ],
-      "answer": "George Washington"
+      "answer": "Barry Bonds"
     },
     {
       "id": 3,
-      "category": "Geography",
-      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "category": "Sports",
+      "question": "Which team has won the most Super Bowl championships?",
       "options": [
-        "China",
-        "Japan",
-        "India",
-        "South Korea"
+        "New England Patriots",
+        "Pittsburgh Steelers",
+        "Dallas Cowboys",
+        "San Francisco 49ers"
       ],
-      "answer": "Japan"
+      "answer": "New England Patriots"
     },
     {
       "id": 4,
       "category": "Sports",
-      "question": "Which sport uses a shuttlecock?",
+      "question": "Who is the all-time leading scorer in NBA history?",
       "options": [
-        "Tennis",
-        "Badminton",
-        "Table Tennis",
-        "Squash"
+        "Kareem Abdul-Jabbar",
+        "LeBron James",
+        "Michael Jordan",
+        "Kobe Bryant"
       ],
-      "answer": "Badminton"
+      "answer": "Kareem Abdul-Jabbar"
     },
     {
       "id": 5,
-      "category": "Movies",
-      "question": "Who directed the movie 'Inception'?",
+      "category": "Sports",
+      "question": "Which country has won the most Olympic gold medals?",
       "options": [
-        "Christopher Nolan",
-        "Martin Scorsese",
-        "Steven Spielberg",
-        "Quentin Tarantino"
+        "United States",
+        "China",
+        "Soviet Union",
+        "Great Britain"
       ],
-      "answer": "Christopher Nolan"
+      "answer": "United States"
+    },
+    {
+      "id": 6,
+      "category": "Sports",
+      "question": "Who won the UEFA Champions League in 2021?",
+      "options": [
+        "Real Madrid",
+        "Chelsea",
+        "Liverpool",
+        "Bayern Munich"
+      ],
+      "answer": "Chelsea"
+    },
+    {
+      "id": 7,
+      "category": "Sports",
+      "question": "Who is the fastest man in the world?",
+      "options": [
+        "Usain Bolt",
+        "Tyson Gay",
+        "Yohan Blake",
+        "Justin Gatlin"
+      ],
+      "answer": "Usain Bolt"
+    },
+    {
+      "id": 8,
+      "category": "Sports",
+      "question": "Which tennis player has won the most Grand Slam singles titles?",
+      "options": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Serena Williams"
+      ],
+      "answer": "Serena Williams"
+    },
+    {
+      "id": 9,
+      "category": "Sports",
+      "question": "Which golfer has the most major championship wins?",
+      "options": [
+        "Jack Nicklaus",
+        "Tiger Woods",
+        "Arnold Palmer",
+        "Rory McIlroy"
+      ],
+      "answer": "Jack Nicklaus"
+    },
+    {
+      "id": 10,
+      "category": "Sports",
+      "question": "Which team has won the most NBA championships?",
+      "options": [
+        "Boston Celtics",
+        "Los Angeles Lakers",
+        "Chicago Bulls",
+        "Golden State Warriors"
+      ],
+      "answer": "Boston Celtics"
     }
-  ],
-  "quizusers" : [
-    {"id" : 1, "name" : "Chandra" , "diffeculty" : "easy", "numberOfQuestion" : 4}
+  ]
+  ,
+  "gkquestion": [
+    {
+      "id": 1,
+      "category": "General Knowledge",
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Thailand"
+      ],
+      "answer": "Japan"
+    },
+    {
+      "id": 2,
+      "category": "General Knowledge",
+      "question": "What is the currency of Brazil?",
+      "options": [
+        "Peso",
+        "Euro",
+        "Yen",
+        "Real"
+      ],
+      "answer": "Real"
+    },
+    {
+      "id": 3,
+      "category": "General Knowledge",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "id": 4,
+      "category": "General Knowledge",
+      "question": "Which ocean is the largest in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 5,
+      "category": "General Knowledge",
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "id": 6,
+      "category": "General Knowledge",
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Earth"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 7,
+      "category": "General Knowledge",
+      "question": "Which animal is known as the 'King of the Jungle'?",
+      "options": [
+        "Tiger",
+        "Lion",
+        "Elephant",
+        "Giraffe"
+      ],
+      "answer": "Lion"
+    },
+    {
+      "id": 8,
+      "category": "General Knowledge",
+      "question": "What is the chemical symbol for the element Oxygen?",
+      "options": [
+        "O",
+        "C",
+        "H",
+        "N"
+      ],
+      "answer": "O"
+    },
+    {
+      "id": 9,
+      "category": "General Knowledge",
+      "question": "Which famous playwright wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "William Shakespeare",
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "Arthur Miller"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "id": 10,
+      "category": "General Knowledge",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        "Brain",
+        "Heart",
+        "Liver",
+        "Skin"
+      ],
+      "answer": "Skin"
+    }
+  ]
+  ,
+  "geographyquestion": [
+    {
+      "id": 1,
+      "category": "Geography",
+      "question": "What is the capital city of Canada?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "answer": "Ottawa"
+    },
+    {
+      "id": 2,
+      "category": "Geography",
+      "question": "Which river is the longest in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "answer": "Nile River"
+    },
+    {
+      "id": 3,
+      "category": "Geography",
+      "question": "In which country is the Great Barrier Reef located?",
+      "options": [
+        "Australia",
+        "Mexico",
+        "Brazil",
+        "India"
+      ],
+      "answer": "Australia"
+    },
+    {
+      "id": 4,
+      "category": "Geography",
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Sahara Desert",
+        "Atacama Desert",
+        "Arabian Desert"
+      ],
+      "answer": "Sahara Desert"
+    },
+    {
+      "id": 5,
+      "category": "Geography",
+      "question": "Which mountain range is located in South America?",
+      "options": [
+        "Rocky Mountains",
+        "Himalayas",
+        "Andes",
+        "Alps"
+      ],
+      "answer": "Andes"
+    },
+    {
+      "id": 6,
+      "category": "Geography",
+      "question": "What is the largest lake in Africa?",
+      "options": [
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Chad"
+      ],
+      "answer": "Lake Victoria"
+    },
+    {
+      "id": 7,
+      "category": "Geography",
+      "question": "Which country is the smallest in the world by land area?",
+      "options": [
+        "Vatican City",
+        "Monaco",
+        "Nauru",
+        "San Marino"
+      ],
+      "answer": "Vatican City"
+    },
+    {
+      "id": 8,
+      "category": "Geography",
+      "question": "Which country is home to the tallest mountain, Mount Everest?",
+      "options": [
+        "China",
+        "Nepal",
+        "India",
+        "Bhutan"
+      ],
+      "answer": "Nepal"
+    },
+    {
+      "id": 9,
+      "category": "Geography",
+      "question": "In which country is the city of Marrakech located?",
+      "options": [
+        "Morocco",
+        "Egypt",
+        "Algeria",
+        "Tunisia"
+      ],
+      "answer": "Morocco"
+    },
+    {
+      "id": 10,
+      "category": "Geography",
+      "question": "What is the largest island in the world?",
+      "options": [
+        "Greenland",
+        "Australia",
+        "Borneo",
+        "Madagascar"
+      ],
+      "answer": "Greenland"
+    }
+  ]
+  ,
+  "quizusers": [
+    {
+      "id": 1,
+      "name": "Chandra",
+      "category": "",
+      "difficulty": "",
+      "numQuestions": 4
+    }
   ]
 }
